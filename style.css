@@ -315,7 +315,7 @@ p {
     .banner {
         flex-direction: column;
         height: auto;
-        width: 80%;
+        width: 100%;
         margin-left: 40px;
     }
 
