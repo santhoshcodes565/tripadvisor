@@ -316,13 +316,19 @@ p {
         flex-direction: column;
         height: auto;
         width: 100%;
-        margin-left: 40px;
+        margin-left: 20px;
+        padding-right: 20px;
     }
 
     .image-banner {
-        width: 90%;
+        width: 50%;
         height: auto;
         margin: 10px;
+    }
+    .image-banner img {
+        width: 50%;
+        height: auto;
+        
     }
 
     .vertical-line {
