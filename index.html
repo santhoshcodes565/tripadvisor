@@ -4,273 +4,253 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title></title>
+   <title>TripAdvisor - Where to?</title>
    <link rel="stylesheet" href="style.css">
-   <!-- Google Fonts --->
+   <!-- Google Fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-   <!--link font-awesome-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+   <!-- Desktop Navbar -->
    <div class="navbar">
-      <div class="image">
-         <img src="image/logo.jpg" alt="Logo" class="logo">
+      <div class="navbar-logo">
+         <img src="image/logo.jpg" alt="TripAdvisor Logo" class="logo">
       </div>
 
-      <div class="navbar-s1">
-         <b>
-            <p>Discover</p>
-         </b>
-         <b>
-            <p>Trips</p>
-         </b>
-         <b>
-            <p>Review</p>
-         </b>
-         <b>
-            <p>More</p>
-         </b>
+      <div class="navbar-links">
+         <p>Discover</p>
+         <p>Trips</p>
+         <p>Review</p>
+         <p>More</p>
       </div>
-      <div class="navbar-s2">
-         <p> 🌐| INR</p>
-         <p class="signup-btn">Sign Up</p>
-      </div>
-   </div>
-   <!--moblie navbar-->
-   <div class="moblie__navbar">
-      <i class="fa-solid fa-bars" style="color: #000000;"></i>
-      <div class="moblie__image">
-         <img src="image/logo.jpg" alt="Logo" class="logo">
-      </div>
-      <i class="fa-regular fa-circle-user" style="color: #050505;"></i>
-   </div>
-   <div class="where">
-      <h1 class="name">Where TO?</h1>
 
+      <div class="navbar-right">
+         <p>🌐 INR</p>
+         <button class="signup-btn">Sign Up</button>
+      </div>
    </div>
 
+   <!-- Mobile Navbar -->
+   <div class="mobile-navbar">
+      <i class="fa-solid fa-bars"></i>
+      <div class="mobile-logo">
+         <img src="image/logo.jpg" alt="TripAdvisor Logo" class="logo">
+      </div>
+      <i class="fa-regular fa-circle-user"></i>
+   </div>
+
+   <!-- Title -->
+   <div class="hero-title">
+      <h1>Where to?</h1>
+   </div>
+
+   <!-- Menu -->
    <div class="menu">
-      <p><i class="fa-regular fa-house"></i> Search All</p>
-      <p><i class="fa-solid fa-hotel"></i>Hotels</p>
-      <p><i class="fa-regular fa-camera"></i>Thing to Do</p>
-      <p> <i class="fa-solid fa-utensils"></i>Restaurants</p>
+      <p><i class="fa-solid fa-magnifying-glass"></i> Search All</p>
+      <p><i class="fa-solid fa-hotel"></i> Hotels</p>
+      <p><i class="fa-solid fa-camera"></i> Things to Do</p>
+      <p><i class="fa-solid fa-utensils"></i> Restaurants</p>
    </div>
-   <!--moblie_menu-->
-   <div class="moblie__menu">
-      <p><i class="fa-regular fa-house"></i>Search All</p>
-      <p><i class="fa-solid fa-hotel"></i>Hotels</p>
-      <p><i class="fa-regular fa-camera"></i>Thing to Do</p>
-      <p> <i class="fa-solid fa-utensils"></i>Restaurants</p>
-   </div>
+
+   <!-- Search Bar -->
    <div class="searchbar">
-      <input class="search" placeholder="🔍Places to go,things to do,hotels..">
-      <button class="button-search">Search</button>
+      <input class="search-input" type="text" placeholder="🔍Places to go, things to do, hotels...">
+      <button class="search-btn">Search</button>
    </div>
+
+   <!-- Banner Section -->
    <div class="banner">
-      <img src="image/imageone.jpg" alt="banner image" class="image-banner">
-      <div class="vertical-line"></div>
-      <div class="banner-text">
-         <p class="banner-heading">
-            Find things to do for<br> everything you’re <br>into
-         </p>
-
-         <p class="banner-para">Browse 400,000+ experiences and book with us.</p>
+      <img src="image/imageone.jpg" alt="Travel destination" class="banner-image">
+      <div class="banner-content">
+         <h2>Find things to do for everything you're into</h2>
+         <p>Browse 400,000+ experiences and book with us.</p>
          <button class="banner-btn">Book Now</button>
-
-      </div>
-
-   </div>
-   <div class="cart-s1">
-      <h2 class="cart-heading">Find things to do by interest</h2>
-      <p class="cart-para">Whatever you're into, we’ve got it</p>
-      <div class="cart-images">
-         <div class="cart-image">
-            <img src="image/cart.jpg" alt="cart image1" class="image-cart">
-         </div>
-         <div class="cart-image">
-            <img src="image/cart1.jpg" alt="cart image2" class="image-cart">
-         </div>
-         <div class="cart-image">
-            <img src="image/cart2.jpg" alt="cart image3" class="image-cart">
-         </div>
-         <div class="cart-image">
-            <img src="image/cart3.jpg" alt="cart image4" class="image-cart">
-         </div>
-      </div>
-   </div>
-   </div>
-
-
-   <div class="cart-s1">
-      <h2 class="cart-heading">Ways to tour Coimbatore</h2>
-      <p class="cart-para">Book these experiences for a close-up look at Coimbatore.</p>
-      <div class="cart-images">
-         <div class="cart-image">
-            <img src="image/imagecity1.jpg" alt="cart image1" class="image-cart">
-            <h4>Ooty Sightseeing and Toy Train <br>Ride –UNESCO Railway One Day<br> Tour</h4>
-            <p>(0)🟢</p>
-            <p>from ₹15,556 per adult</p>
-
-         </div>
-         <div class="cart-image">
-            <img src="image/imagecity2.jpg" alt="cart image2" class="image-cart">
-            <h4>Explore The Gedee Car Museum <br>In Coimbatore</h4>
-            <p>4.0🟢🟢🟢🟢</p>
-            <p>from ₹8,109 per adult</p>
-
-         </div>
-         <div class="cart-image">
-            <img src="image/imagecity3.jpg" alt="cart image3" class="image-cart">
-            <h4>Explore Palani Murugan Temple<br> From Coimbatore</h4>
-            <p>5.0(1)🟢🟢🟢🟢🟢</p>
-            <p>from ₹17,784 per adult</p>
-         </div>
-         <div class="cart-image">
-            <img src="image/imagecity4.jpg" alt="cart image4" class="image-cart">
-            <h4>Adiyogi , Dhyanalinga & Linga <br>Bhairavi Tour – A Spiritual <br>Journey</h4>
-            <p>3.0(2)🟢🟢🟢</p>
-            <p>from ₹6,437 per adult</p>
-         </div>
       </div>
    </div>
 
-
-
-
-
-
-   <div class="cart-s1">
-      <h2 class="cart-heading">Big cities, big holiday cheer</h2>
-      <p class="cart-para">Eat, drink, shop, and be merry</p>
-      <div class="cart-images">
-         <div class="cart-image">
-            <img src="image/imagecourty1.jpg" alt="cart image1" class="image-cart">
-            <h6>Amsterdam</h6>
-            <h4>Amsterdam Light Festival Canal<br> Cruise With Unlimited Drinks</h4>
-            <p>4.5🟢🟢🟢🟢(444)</p>
-            <p>from ₹2,729 per adult</p>
+   <!-- Interest Section -->
+   <section class="section">
+      <h2 class="section-heading">Find things to do by interest</h2>
+      <p class="section-subtitle">Whatever you're into, we've got it</p>
+      <div class="card-grid">
+         <div class="card">
+            <img src="image/cart.jpg" alt="Interest category 1">
          </div>
-         <div class="cart-image">
-            <img src="image/imagecourty2.jpg" alt="cart image2" class="image-cart">
-            <h6>New York City</h6>
-            <h4>Dyker Heights Brooklyn <br>Christmas Lights Tour</h4>
-            <p>4.3🟢🟢🟢🟢(228)</p>
-            <p>from ₹5,529 per adult</p>
+         <div class="card">
+            <img src="image/cart1.jpg" alt="Interest category 2">
          </div>
-         <div class="cart-image">
-            <img src="image/imagecourty3.jpg" alt="cart image3" class="image-cart">
-            <h6>Chicago</h6>
-            <h4>Chicago-Style Holiday Hike:<br> Festive Food and Walking Tour</h4>
-            <p>4.9🟢🟢🟢🟢🟢(27)</p>
-            <p>from ₹7,831 per adult</p>
+         <div class="card">
+            <img src="image/cart2.jpg" alt="Interest category 3">
          </div>
-         <div class="cart-image">
-            <img src="image/imagecourty4.jpg" alt="cart image4" class="image-cart">
-            <h6>Dublin</h6>
-            <h4>Merry Ploughboy's Irish Night<br> Dublin Admission Ticket</h4>
-            <p>4.7🟢🟢🟢🟢(38)</p>
-            <p>from ₹3,648 per adult</p>
+         <div class="card">
+            <img src="image/cart3.jpg" alt="Interest category 4">
          </div>
       </div>
-   </div>
+   </section>
 
-
-   <div class="cart-s1">
-      <h2 class="cart-heading">Your next trip is waiting</h2>
-      <p class="cart-para">Weekend getaways from Coimbatore</p>
-      <div class="cart-images">
-         <div class="cart-image">
-            <img src="image/imagecity5.jpg" alt="cart image1" class="image-cart">
+   <!-- Coimbatore Tours -->
+   <section class="section">
+      <h2 class="section-heading">Ways to tour Coimbatore</h2>
+      <p class="section-subtitle">Book these experiences for a close-up look at Coimbatore.</p>
+      <div class="card-grid">
+         <div class="card">
+            <img src="image/imagecity1.jpg" alt="Ooty Sightseeing">
+            <h4>Ooty Sightseeing and Toy Train Ride – UNESCO Railway One Day Tour</h4>
+            <p class="rating">⭐ (0)</p>
+            <p class="price">from ₹15,556 per adult</p>
          </div>
-         <div class="cart-image">
-            <img src="image/imagecity6.jpg" alt="cart image2" class="image-cart">
-
+         <div class="card">
+            <img src="image/imagecity2.jpg" alt="Gedee Car Museum">
+            <h4>Explore The Gedee Car Museum In Coimbatore</h4>
+            <p class="rating">⭐ 4.0 (Reviews)</p>
+            <p class="price">from ₹8,109 per adult</p>
          </div>
-         <div class="cart-image">
-            <img src="image/imagecity7.jpg" alt="cart image3" class="image-cart">
-
+         <div class="card">
+            <img src="image/imagecity3.jpg" alt="Palani Temple">
+            <h4>Explore Palani Murugan Temple From Coimbatore</h4>
+            <p class="rating">⭐ 5.0 (1)</p>
+            <p class="price">from ₹17,784 per adult</p>
          </div>
-         <div class="cart-image">
-            <img src="image/imagecity8.jpg" alt="cart image4" class="image-cart">
-
-         </div>
-      </div>
-   </div>
-
-
-   <div class="cart-s1">
-      <h2 class="cart-heading">Iconic places you need to see</h2>
-
-      <div class="cart-images">
-         <div class="cart-image">
-            <img src="image/imagecourty5.jpg" alt="cart image1" class="image-cart">
-         </div>
-         <div class="cart-image">
-            <img src="image/imagecourty6.jpg" alt="cart image2" class="image-cart">
-
-         </div>
-         <div class="cart-image">
-            <img src="image/imagecourty7.jpg" alt="cart image3" class="image-cart">
-
-         </div>
-         <div class="cart-image">
-            <img src="image/imagecourty8.jpg" alt="cart image4" class="image-cart">
-
+         <div class="card">
+            <img src="image/imagecity4.jpg" alt="Adiyogi Tour">
+            <h4>Adiyogi, Dhyanalinga & Linga Bhairavi Tour – A Spiritual Journey</h4>
+            <p class="rating">⭐ 3.0 (2)</p>
+            <p class="price">from ₹6,437 per adult</p>
          </div>
       </div>
-   </div>
+   </section>
 
+   <!-- Big Cities Section -->
+   <section class="section">
+      <h2 class="section-heading">Big cities, big holiday cheer</h2>
+      <p class="section-subtitle">Eat, drink, shop, and be merry</p>
+      <div class="card-grid">
+         <div class="card">
+            <img src="image/imagecourty1.jpg" alt="Amsterdam">
+            <h6 class="city-name">Amsterdam</h6>
+            <h4>Amsterdam Light Festival Canal Cruise With Unlimited Drinks</h4>
+            <p class="rating">⭐ 4.5 (444)</p>
+            <p class="price">from ₹2,729 per adult</p>
+         </div>
+         <div class="card">
+            <img src="image/imagecourty2.jpg" alt="New York">
+            <h6 class="city-name">New York City</h6>
+            <h4>Dyker Heights Brooklyn Christmas Lights Tour</h4>
+            <p class="rating">⭐ 4.3 (228)</p>
+            <p class="price">from ₹5,529 per adult</p>
+         </div>
+         <div class="card">
+            <img src="image/imagecourty3.jpg" alt="Chicago">
+            <h6 class="city-name">Chicago</h6>
+            <h4>Chicago-Style Holiday Hike: Festive Food and Walking Tour</h4>
+            <p class="rating">⭐ 4.9 (27)</p>
+            <p class="price">from ₹7,831 per adult</p>
+         </div>
+         <div class="card">
+            <img src="image/imagecourty4.jpg" alt="Dublin">
+            <h6 class="city-name">Dublin</h6>
+            <h4>Merry Ploughboy's Irish Night Dublin Admission Ticket</h4>
+            <p class="rating">⭐ 4.7 (38)</p>
+            <p class="price">from ₹3,648 per adult</p>
+         </div>
+      </div>
+   </section>
+
+   <!-- Next Trip Section -->
+   <section class="section">
+      <h2 class="section-heading">Your next trip is waiting</h2>
+      <p class="section-subtitle">Weekend getaways from Coimbatore</p>
+      <div class="card-grid">
+         <div class="card">
+            <img src="image/imagecity5.jpg" alt="Getaway 1">
+         </div>
+         <div class="card">
+            <img src="image/imagecity6.jpg" alt="Getaway 2">
+         </div>
+         <div class="card">
+            <img src="image/imagecity7.jpg" alt="Getaway 3">
+         </div>
+         <div class="card">
+            <img src="image/imagecity8.jpg" alt="Getaway 4">
+         </div>
+      </div>
+   </section>
+
+   <!-- Iconic Places -->
+   <section class="section">
+      <h2 class="section-heading">Iconic places you need to see</h2>
+      <div class="card-grid">
+         <div class="card">
+            <img src="image/imagecourty5.jpg" alt="Iconic place 1">
+         </div>
+         <div class="card">
+            <img src="image/imagecourty6.jpg" alt="Iconic place 2">
+         </div>
+         <div class="card">
+            <img src="image/imagecourty7.jpg" alt="Iconic place 3">
+         </div>
+         <div class="card">
+            <img src="image/imagecourty8.jpg" alt="Iconic place 4">
+         </div>
+      </div>
+   </section>
+
+   <!-- Sponsored Section -->
    <div class="sponsored">
-      <div class="sponsored-img">
-         <img src="image/sponsoredimg.jpg" alt="sponsored image" class="image-sponsored">
+      <div class="sponsored-image">
+         <img src="image/sponsoredimg.jpg" alt="The Wanderer series">
       </div>
-      <div class="sponsored-text">
-         <p class="sponsored-para">Sponsored: Explore More with TripAdvisor</p>
-         <h2 class="sponsored-heading">Watch The Wanderer</h2>
-         <p class="sponsored-para1">Tripadvisor’s award-winning travel series,now <br>
-            <center>streaming on Amazon Prime Video</center>
-         </p>
-         <center><button class="sponsored-btn">Learn More</button></center>
-      </div>
-
-   </div>
-   <div class="banner2">
-      <img src="image/banner.jpg" alt="banner image" class="image-banner2">
-   </div>
-
-   <div class="cart-s1">
-      <h2 class="cart-heading">Browse themed collections</h2>
-
-      <div class="cart-images">
-         <div class="cart-image">
-            <img src="image/collections1.jpg" alt="cart image1" class="image-cart">
-            <p>See what makes this place<br> so magical at this time of year</p>
-         </div>
-         <div class="cart-image">
-            <img src="image/collections2.jpg" alt="cart image2" class="image-cart">
-            <p> From cosy cocktail bars to chic<br> nightclubs</p>
-
-         </div>
-         <div class="cart-image">
-            <img src="image/collections3.jpg" alt="cart image3" class="image-cart">
-            <p>The city’s best museums, galleries<br> and more</p>
-         </div>
-         <div class="cart-image">
-            <img src="image/collections4.jpg" alt="cart image4" class="image-cart">
-            <p>Luxury experiences that are totally<br> worth it</p>
-
-         </div>
+      <div class="sponsored-content">
+         <p class="sponsored-label">Sponsored</p>
+         <h2>Watch The Wanderer</h2>
+         <p>Tripadvisor's award-winning travel series, now streaming on Amazon Prime Video</p>
+         <button class="sponsored-btn">Learn More</button>
       </div>
    </div>
 
-   <div class="menuname">
-      <div class="menuname-s1">
-         <p> About Tripadvisor</p>
+   <!-- Award Section -->
+   <div class="award-container">
+      <div class="award-content">
+         <h1>Travellers' Choice Awards Best of the Best</h1>
+         <p>Among our top 1% of places, stays, eats, and experiences—decided by you.</p>
+         <button class="award-btn">See the Winners</button>
+      </div>
+      <img src="./image/paraimg.jpg" alt="Award badge" class="award-image">
+   </div>
+
+   <!-- Collections Section -->
+   <section class="section">
+      <h2 class="section-heading">Browse themed collections</h2>
+      <div class="card-grid">
+         <div class="card">
+            <img src="image/collections1.jpg" alt="Winter destinations">
+            <p>See what makes this place so magical at this time of year</p>
+         </div>
+         <div class="card">
+            <img src="image/collections2.jpg" alt="Nightlife">
+            <p>From cosy cocktail bars to chic nightclubs</p>
+         </div>
+         <div class="card">
+            <img src="image/collections3.jpg" alt="Museums">
+            <p>The city's best museums, galleries and more</p>
+         </div>
+         <div class="card">
+            <img src="image/collections4.jpg" alt="Luxury">
+            <p>Luxury experiences that are totally worth it</p>
+         </div>
+      </div>
+   </section>
+
+   <!-- Footer Links Menu -->
+   <div class="footer-menu">
+      <div class="footer-column">
+         <p class="footer-title">About Tripadvisor</p>
          <p>About Us</p>
          <p>Press</p>
          <p>Resources and Policies</p>
@@ -279,8 +259,8 @@
          <p>Contact us</p>
          <p>Tripadvisor Technology Blog</p>
       </div>
-      <div class="menuname-s2">
-         <p> Explore</p>
+      <div class="footer-column">
+         <p class="footer-title">Explore</p>
          <p>Write a review</p>
          <p>Add a Place</p>
          <p>Join</p>
@@ -289,8 +269,8 @@
          <p>Help Center</p>
          <p>Site Map</p>
       </div>
-      <div class="menuname-s3">
-         <p> Do Business With Us</p>
+      <div class="footer-column">
+         <p class="footer-title">Do Business With Us</p>
          <p>Owners</p>
          <p>Management Center</p>
          <p>Sponsored Placements</p>
@@ -300,15 +280,16 @@
          <p>iPhone App</p>
          <p>Android App</p>
       </div>
-      <div class="menuname-s4">
-         <p>Tripadvisor Sites</p>
+      <div class="footer-column">
+         <p class="footer-title">Tripadvisor Sites</p>
          <p>Book tours and attraction tickets on Viator</p>
-
       </div>
    </div>
 
-   <div class="footer">
-      <footer>© 2025 Tripadvisor LLC All rights reserved.</footer>
+   <!-- Footer -->
+   <footer class="footer">
+      <p class="footer-copyright">© 2025 Tripadvisor LLC All rights reserved.</p>
+      
       <div class="footer-links">
          <p>Terms of Use</p>
          <p>Privacy and Cookies Statement</p>
@@ -318,36 +299,24 @@
          <p>Contact us</p>
          <p>Accessibility Statement</p>
       </div>
-      <p>This is the version of our website addressed to speakers of English in India. If you are a resident of another
-         country or region, please select the appropriate version of Tripadvisor for your country or region in the
-         drop-down menu.
 
-         Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites and applications. Listed
-         prices may require a stay of a particular length or have blackout dates, qualifications or other applicable
-         restrictions. Tripadvisor LLC is not responsible for any content on external web sites that are not owned or
-         operated by Tripadvisor .
-
-         Tripadvisor LLC is not a booking agent or tour operator. When you book with one of our partners, please be sure
-         to check their site for a full disclosure of all applicable fees.
-
+      <p class="footer-disclaimer">
+         This is the version of our website addressed to speakers of English in India. If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down menu.
       </p>
+
       <div class="footer-controls">
-         <select>
+         <select aria-label="Currency">
             <option>₹ INR</option>
             <option>$ USD</option>
             <option>€ EUR</option>
          </select>
-         <select>
+         <select aria-label="Country">
             <option>India</option>
             <option>United States</option>
             <option>United Kingdom</option>
          </select>
       </div>
-   </div>
-   </div>
-
-
-
+   </footer>
 
 </body>
 
